@@ -1,0 +1,10 @@
+
+.shape {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-bottom: 20px solid black;
+    border-left: 20px solid red;
+    border-right: 20px solid blue;
+    border-top: 20px solid green;
+}
