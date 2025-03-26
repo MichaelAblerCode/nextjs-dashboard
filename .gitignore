@@ -1,57 +1,36 @@
-# Node.js dependencies
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json  # Optional: include if using yarn exclusively
-yarn.lock         # Optional: include if using npm exclusively
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Next.js specific
-.next/
-out/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Build output
-dist/
-build/
+# testing
+/coverage
 
-# Logs
-logs/
-*.log
+# next.js
+/.next/
+/out/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# production
+/build
 
-# OS files
+# misc
 .DS_Store
-Thumbs.db
+*.pem
 
-# Editor directories and files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Testing
-coverage/
-*.lcov
+# local env files
+.env*.local
+.env
 
-# Temporary files
-*.tmp
-*.bak
-*.swp
+# vercel
+.vercel
 
-# Cache
-*.cache
-.eslintcache
-.stylelintcache
-
-# Debug
-debug/
-
-# Optional: Add any local development files or folders
-local/
+# typescript
+*.tsbuildinfo
+next-env.d.ts
